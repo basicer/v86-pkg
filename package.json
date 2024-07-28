@@ -1,0 +1,20 @@
+{
+  "name": "v86-pkg",
+  "version": "0.1.0",
+  "description": "Meta package to dowload the latest v86.",
+  "main": "libv86.js",
+  "scripts": {
+    "postinstall": "node prepare.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basicer/v86-pkg.git"
+  },
+  "author": "Rob Blanckaert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basicer/v86-pkg/issues"
+  },
+  "homepage": "https://github.com/basicer/v86-pkg#readme"
+}

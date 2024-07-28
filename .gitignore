@@ -1,0 +1,4 @@
+syntax: globl
+*.js
+*.wasm
+*.bin
