@@ -9,6 +9,8 @@ const files = {
     "v86-fallback.wasm": "https://github.com/copy/v86/releases/download/latest/v86-fallback.wasm",
 
     "seabios.bin": "https://raw.githubusercontent.com/copy/v86/master/bios/seabios.bin",
+    "libwabt.js": "https://raw.githubusercontent.com/WebAssembly/wabt/main/docs/demo/libwabt.js",
+    "capstone-x86.min.js": "https://github.com/AlexAltea/capstone.js/releases/download/v3.0.5-rc1/capstone-x86.min.js"
 };
 
 await Promise.all(Object.entries(files).map(async ([name, url]) => {
