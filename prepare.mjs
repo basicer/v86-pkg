@@ -3,7 +3,9 @@ import {writeFile, existsSync} from 'node:fs';
 const files = {
     "libv86.js": "https://github.com/copy/v86/releases/download/latest/libv86.js",
     "libv86-debug.js": "https://github.com/copy/v86/releases/download/latest/libv86-debug.js",
-
+    "libv86.mjs": "https://github.com/copy/v86/releases/download/latest/libv86.mjs",
+    "libv86-debug.mjs": "https://github.com/copy/v86/releases/download/latest/libv86-debug.mjs",
+    
     "v86.wasm": "https://github.com/copy/v86/releases/download/latest/v86.wasm",
     "v86-debug.wasm": "https://github.com/copy/v86/releases/download/latest/v86-debug.wasm",
     "v86-fallback.wasm": "https://github.com/copy/v86/releases/download/latest/v86-fallback.wasm",
